@@ -21,4 +21,10 @@ class School
     end
   end
 
+  def sort
+    sorted = {}
+    roster.each do |x,y|
+      sorted[x] = y.sort
+    end
+  end
 end
