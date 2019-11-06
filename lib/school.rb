@@ -8,4 +8,9 @@ class School
     @roster = {}
   end
 
+  def add_student(name, grade)
+    roster[level] || = []
+    roster[level] << student
+  end
+
 end
