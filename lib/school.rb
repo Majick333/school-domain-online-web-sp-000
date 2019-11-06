@@ -16,7 +16,7 @@ class School
   def grade(grade)
     grade.detect do |x,y|
       if x == grade
-        return y 
+        return y
       end
     end
   end
